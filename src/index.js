@@ -366,7 +366,6 @@ class DropDownPicker extends React.Component {
     }
 
     render() {
-        this.props.controller(this);
         const { multiple, disabled } = this.state.props;
         const { placeholder, scrollViewProps, searchTextInputProps } = this.props;
         const isPlaceholderActive = this.state.choice.label === null;
